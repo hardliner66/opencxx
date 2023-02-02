@@ -28,7 +28,6 @@
 //
 //@endlicenses@
 
-#include <cstdarg>
 #include <opencxx/parser/PtreeUtil.h>
 #include <opencxx/parser/Ptree.h>
 #include <opencxx/parser/Leaf.h>
@@ -39,6 +38,8 @@
 #include <opencxx/parser/ErrorLog.h>
 #include <opencxx/parser/MopMsg.h>
 #include <opencxx/parser/GC.h>
+#include <cstdarg>
+#include <cstring>
 
 namespace Opencxx
 {

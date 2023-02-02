@@ -28,9 +28,6 @@
 //  Copyright (C)  Other Contributors (see file AUTHORS)
 //
 //@endlicenses@
-
-#include <iostream>
-#include <string>
 #include <opencxx/Class.h>
 #include <opencxx/parser/Ptree.h>
 #include <opencxx/Member.h>
@@ -49,6 +46,10 @@
 #include <opencxx/parser/TheErrorLog.h>
 #include <opencxx/parser/MopMsg.h>
 #include <opencxx/parser/PtreeUtil.h>
+
+#include <iostream>
+#include <string>
+#include <cstring>
 
 namespace Opencxx
 {

@@ -36,6 +36,8 @@
 #include <opencxx/parser/MopMsg.h>
 #include <opencxx/parser/GC.h>
 
+#include <cstring>
+
 namespace Opencxx
 {
 

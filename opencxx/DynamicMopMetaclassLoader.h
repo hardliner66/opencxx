@@ -60,6 +60,8 @@
 #include <opencxx/Metaclass.h>
 #include <opencxx/TheMetaclassRegistry.h>
 
+#include <cstring>
+
 namespace Opencxx
 {
 

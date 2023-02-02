@@ -30,9 +30,6 @@
 //@endlicenses@
 
 #include <opencxx/Walker.h>
-#include <cassert>
-#include <string>
-#include <strstream>
 #include <opencxx/Bind.h>
 #include <opencxx/parser/Encoding.h>
 #include <opencxx/EncodingUtil.h>
@@ -66,6 +63,11 @@
 #include <opencxx/parser/PtreeUsing.h>
 #include <opencxx/parser/ptreeAll.h>
 #include <opencxx/parser/token-names.h>
+
+#include <cassert>
+#include <string>
+#include <cstring>
+#include <strstream>
 
 using namespace std;
 

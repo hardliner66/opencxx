@@ -118,7 +118,7 @@ char* Ptree::ToString()
 	buf << std::ends;
 	const std::string& s = buf.str();
 	char* result = new (GC) char[s.length() + 1];
-	std::strcpy(result, s.c_str());
+	strcpy(result, s.c_str());
 	buf.freeze(false);
 	return result;
     }

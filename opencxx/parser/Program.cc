@@ -51,12 +51,14 @@
 //
 //@endlicenses@
 
-#include <iostream>
 #include <opencxx/parser/Program.h>
 #include <opencxx/parser/Ptree.h>
 #include <opencxx/parser/auxil.h>
 #include <opencxx/parser/token-names.h>
 #include <opencxx/parser/PtreeUtil.h>
+
+#include <iostream>
+#include <cstring>
 
 namespace Opencxx
 {

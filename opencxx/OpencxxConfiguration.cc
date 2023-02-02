@@ -15,8 +15,6 @@
 //@endlicenses@
 
 #include <opencxx/OpencxxConfiguration.h>
-#include <cassert>
-#include <cstdlib>
 #include <opencxx/Class.h>
 #include <opencxx/CliErrorMsg.h>
 #include <opencxx/GenericMsg.h>
@@ -24,6 +22,10 @@
 #include <opencxx/UnknownCliOptionException.h>
 #include "opencxx/parser/CerrErrorLog.h"
 #include <opencxx/parser/ErrorLog.h>
+
+#include <cassert>
+#include <cstdlib>
+#include <cstring>
 
 namespace Opencxx
 {
@@ -67,7 +69,7 @@ static bool strpref(const char* prefix, const char* text)
 */
 static bool IsCxxSource(const char* fname)
 {
-    char* ext = strrchr(fname, '.');
+    const char* ext = strrchr(fname, '.');
     if(ext == 0)
         return false;
 

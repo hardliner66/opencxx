@@ -1,9 +1,11 @@
 #ifndef guard_opencxx_GenericMsg_h
 #define guard_opencxx_GenericMsg_h
 
-#include <string>
 #include <opencxx/parser/Msg.h>
 #include <opencxx/parser/SourceLocation.h>
+
+#include <string>
+#include <ostream>
 
 //@beginlicenses@
 //@license{contributors}{}@
